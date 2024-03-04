@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practicar tabla de multiplicar</title>
+</head>
+<body>
+    <h2>Practicar tabla de multiplicar</h2>
+    <form action="evaluar.php" method="POST">
+        <label for="tabla">Ingrese la tabla que desea practicar:</label><br>
+        <input type="number" id="tabla" name="tabla" required><br><br>
+        <label for="rango_inicio">Seleccione el rango de números (inicio):</label><br>
+        <input type="number" id="rango_inicio" name="rango_inicio" required><br><br>
+        <label for="rango_fin">Seleccione el rango de números (fin):</label><br>
+        <input type="number" id="rango_fin" name="rango_fin" required><br><br>
+        <input type="submit" value="Practicar">
+    </form>
+</body>
+</html>
+
